@@ -1,6 +1,6 @@
 ---
-import Header from "../components/Header.astro";
 import Card from "../components/Card.astro";
+import Header from "../components/Header.astro";
 import Heading from "../components/Heading.astro";
 import AccordianItem from "../components/AccordianItem.astro";
 import ListCheckedItem from "../components/ListCheckedItem.astro";
@@ -30,7 +30,35 @@ import TimelineItem from "../components/TimelineItem.astro";
           <Heading>Generated Codes</Heading>
         </div>
         <div class="space-y-2 md:space-y-0 md:grid md:grid-cols-2 md:gap-2 xl:grid-cols-4">
-          <Card title="Omag" description="A personal magazine with interests mainly in computer science." href="#" />
+          <Card>
+            <span slot="heading">Omag</span>
+            A personal magazine with interests mainly in computer science and mathematics.
+            <div slot="button">
+              <a href="https://omag.rooi.dev" class="inline-flex items-center px-3 py-2 text-sm text-center text-slate-200 bg-indigo-700 rounded-lg">
+                Visit
+                <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                </svg>
+              </a>
+            </div>
+          </Card>
+          <Card>
+            <span slot="heading">Wabiar</span>
+            An online meeting platform
+              supporting real-time document co-editing (by <a href="https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type" class="text-indigo-500 font-semibold">CRDT</a>)
+              and video conference (by <a href="https://en.wikipedia.org/wiki/WebRTC" class="text-indigo-500 font-semibold">WebRTC</a>).
+            <div class="flex items-center gap-2" slot="button">
+              <div class="inline-flex items-center px-3 py-2 text-sm text-center text-slate-200 bg-slate-700 rounded-lg">
+                Not available
+              </div>
+              <a href="https://github.com/boostcampwm-2022/web27-Wabinar" class="inline-flex items-center px-3 py-2 text-sm text-center text-slate-200 bg-indigo-700 rounded-lg">
+                GitHub
+                <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                </svg>
+              </a>
+            </div>
+          </Card>
         </div>
       </section>
 
@@ -49,6 +77,7 @@ import TimelineItem from "../components/TimelineItem.astro";
         </div>
       </section>
 
+      {/*
       <section class="space-y-2">
         <div>
           <Heading>Specification Details</Heading>
@@ -103,6 +132,7 @@ import TimelineItem from "../components/TimelineItem.astro";
           <p class="mb-2 text-slate-300">He is awesome.</yp>
         </article>
       </section>
+*/}
     </main>
 
     <footer class="px-4 pt-12 pb-4">
