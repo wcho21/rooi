@@ -1,16 +1,112 @@
 ---
-
+import Header from "../components/Header.astro";
+import Card from "../components/Card.astro";
+import Heading from "../components/Heading.astro";
+import AccordianItem from "../components/AccordianItem.astro";
+import ListCheckedItem from "../components/ListCheckedItem.astro";
+import TimelineItem from "../components/TimelineItem.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Source+Code+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width" />
+    <title>Go Grap Some Rooi</title>
+  </head>
+  <body class="font-mono bg-slate-950">
+    <header class="w-full bg-gradient-to-b from-slate-900/90 to-50% to-slate-950 px-4 py-10">
+      <Header />
+    </header>
+
+    <main class="px-4 space-y-10">
+      <section class="space-y-2">
+        <div>
+          <Heading>Generated Codes</Heading>
+        </div>
+        <div class="space-y-2 md:space-y-0 md:grid md:grid-cols-2 md:gap-2 xl:grid-cols-4">
+          <Card title="Omag" description="A personal magazine with interests mainly in computer science." href="#" />
+        </div>
+      </section>
+
+      <section class="space-y-2">
+        <div>
+          <Heading>Pricing</Heading>
+        </div>
+        <div class="p-6 bg-slate-900 border border-slate-800 rounded-lg shadow">
+          <h1 class="text-slate-300 font-semibold mb-3 text-lg">Standard Plan</h1>
+          <ul role="list" class="space-y-5 my-7">
+            <ListCheckedItem>Javascript ready</ListCheckedItem>
+            <ListCheckedItem>Typescript ready</ListCheckedItem>
+            <ListCheckedItem>Node.js ready</ListCheckedItem>
+          </ul>
+          <button type="button" class="text-slate-100 bg-indigo-600 rounded-lg text-sm px-3 py-2 inline-flex justify-center w-full text-center">Contact for Pricing</button>
+        </div>
+      </section>
+
+      <section class="space-y-2">
+        <div>
+          <Heading>Specification Details</Heading>
+        </div>
+        <AccordianItem heading="Spec 1 Name">
+          <p>Spec 1 detail line 1</p>
+          <p>some text with <a href="#" class="text-indigo-500">link</a>.</p>
+        </AccordianItem>
+        <AccordianItem heading="Spec 2 Name">
+          <p>Spec 2 detail line 1</p>
+          <p>some text with <a href="#" class="text-indigo-500">link</a>.</p>
+        </AccordianItem>
+      </section>
+
+      <section class="space-y-2">
+        <div>
+          <Heading>Rivisions</Heading>
+        </div>
+        <ol class="relative border-l border-slate-700">
+          <TimelineItem heading="Boostcamp" date="July 2022">Whatever I did.</TimelineItem>
+        </ol>
+      </section>
+
+      <section class="space-y-2">
+        <div>
+          <Heading>Reviews</Heading>
+        </div>
+        <article>
+          <div class="flex items-center mb-4 space-x-4">
+            <div class="space-y-1 text-slate-200">
+              <p>Co-worker <time datetime="2022-12-12" class="block text-sm text-slate-500">on August 2014</time></p>
+            </div>
+          </div>
+          <div class="flex items-center mb-1 gap-1">
+            <svg class="w-4 h-4 text-yellow-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+              <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+            </svg>
+            <svg class="w-4 h-4 text-yellow-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+              <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+            </svg>
+            <svg class="w-4 h-4 text-yellow-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+              <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+            </svg>
+            <svg class="w-4 h-4 text-yellow-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+              <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+            </svg>
+            <svg class="w-4 h-4 text-yellow-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+              <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+            </svg>
+            <h3 class="ml-2 text-sm font-semibold text-gray-900 dark:text-white">Thinking to buy another one!</h3>
+          </div>
+          <p class="mb-2 text-slate-300">He is awesome.</yp>
+        </article>
+      </section>
+    </main>
+
+    <footer class="px-4 pt-12 pb-4">
+      <span class="text-sm text-slate-600">&copy; 2023. All Rights Reserved.</span>
+    </footer>
+  </body>
 </html>
