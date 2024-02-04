@@ -1,0 +1,17 @@
+---
+import Heading from "../core/Heading.astro";
+import ListCheckedItem from "../ListCheckedItem.astro";
+---
+
+<div>
+  <Heading>Pricing</Heading>
+</div>
+<div class="p-6 bg-slate-900 border border-slate-800 rounded-lg shadow">
+  <h1 class="text-slate-300 font-semibold mb-3 text-lg">Standard Plan</h1>
+  <ul role="list" class="space-y-5 my-7">
+    <ListCheckedItem>Javascript ready</ListCheckedItem>
+    <ListCheckedItem>Typescript ready</ListCheckedItem>
+    <ListCheckedItem>Node.js ready</ListCheckedItem>
+  </ul>
+  <button type="button" class="text-slate-100 bg-indigo-600 rounded-lg text-sm px-3 py-2 inline-flex justify-center w-full text-center">Contact for Pricing</button>
+</div>
