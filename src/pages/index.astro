@@ -21,20 +21,26 @@ import Pricing from "../components/layout/Pricing.astro";
     <title>Code Generator</title>
   </head>
 
-  <body class="font-mono bg-slate-950">
-    <header class="w-full bg-gradient-to-b from-slate-900/90 to-50% to-slate-950 px-4 py-10">
-      <Header />
-    </header>
+  <body class="font-mono bg-slate-950 px-4 py-10 h-screen">
+    <div class="max-w-6xl mx-auto">
+      <header class="w-full">
+        <Header />
+      </header>
 
-    <main class="px-4 space-y-10">
-      <section class="space-y-2">
-        <GeneratedCodes />
-      </section>
+      <main class="px-4 space-y-10">
+        <section class="space-y-2">
+          <GeneratedCodes />
+        </section>
 
-      <section class="space-y-2">
-        <Pricing />
-      </section>
+        <section class="space-y-2">
+          <Pricing />
+        </section>
+      </main>
 
+      <footer class="px-4 pt-12 pb-4">
+        <span class="text-sm text-slate-600">&copy; 2023. All Rights Reserved.</span>
+      </footer>
+    </div>
       {/*
       <section class="space-y-2">
         <div>
@@ -91,10 +97,5 @@ import Pricing from "../components/layout/Pricing.astro";
         </article>
       </section>
 */}
-    </main>
-
-    <footer class="px-4 pt-12 pb-4">
-      <span class="text-sm text-slate-600">&copy; 2023. All Rights Reserved.</span>
-    </footer>
   </body>
 </html>
