@@ -1,10 +1,7 @@
 ---
-import Card from "../components/Card.astro";
-import Header from "../components/Header.astro";
-import Heading from "../components/Heading.astro";
-import AccordianItem from "../components/AccordianItem.astro";
-import ListCheckedItem from "../components/ListCheckedItem.astro";
-import TimelineItem from "../components/TimelineItem.astro";
+import Header from "../components/layout/Header.astro";
+import GeneratedCodes from "../components/layout/GeneratedCodes.astro";
+import Pricing from "../components/layout/Pricing.astro";
 ---
 
 <html lang="ko">
@@ -21,8 +18,9 @@ import TimelineItem from "../components/TimelineItem.astro";
     <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Source+Code+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet">
 
     <meta name="viewport" content="width=device-width" />
-    <title>Go Grap Some Rooi</title>
+    <title>Code Generator</title>
   </head>
+
   <body class="font-mono bg-slate-950">
     <header class="w-full bg-gradient-to-b from-slate-900/90 to-50% to-slate-950 px-4 py-10">
       <Header />
@@ -30,55 +28,11 @@ import TimelineItem from "../components/TimelineItem.astro";
 
     <main class="px-4 space-y-10">
       <section class="space-y-2">
-        <div>
-          <Heading>Generated Codes</Heading>
-        </div>
-        <div class="space-y-2 md:space-y-0 md:grid md:grid-cols-2 md:gap-2 xl:grid-cols-4">
-          <Card>
-            <span slot="heading">Omag</span>
-            A personal magazine with interests mainly in computer science and mathematics.
-            <div slot="button">
-              <a href="https://omag.rooi.dev" class="inline-flex items-center px-3 py-2 text-sm text-center text-slate-200 bg-indigo-700 rounded-lg">
-                Visit
-                <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                </svg>
-              </a>
-            </div>
-          </Card>
-          <Card>
-            <span slot="heading">Wabiar</span>
-            An online meeting platform
-              supporting real-time document co-editing (by <a href="https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type" class="text-indigo-500 font-semibold">CRDT</a>)
-              and video conference (by <a href="https://en.wikipedia.org/wiki/WebRTC" class="text-indigo-500 font-semibold">WebRTC</a>).
-            <div class="flex items-center gap-2" slot="button">
-              <div class="inline-flex items-center px-3 py-2 text-sm text-center text-slate-200 bg-slate-700 rounded-lg">
-                Not available
-              </div>
-              <a href="https://github.com/boostcampwm-2022/web27-Wabinar" class="inline-flex items-center px-3 py-2 text-sm text-center text-slate-200 bg-indigo-700 rounded-lg">
-                GitHub
-                <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                </svg>
-              </a>
-            </div>
-          </Card>
-        </div>
+        <GeneratedCodes />
       </section>
 
       <section class="space-y-2">
-        <div>
-          <Heading>Pricing</Heading>
-        </div>
-        <div class="p-6 bg-slate-900 border border-slate-800 rounded-lg shadow">
-          <h1 class="text-slate-300 font-semibold mb-3 text-lg">Standard Plan</h1>
-          <ul role="list" class="space-y-5 my-7">
-            <ListCheckedItem>Javascript ready</ListCheckedItem>
-            <ListCheckedItem>Typescript ready</ListCheckedItem>
-            <ListCheckedItem>Node.js ready</ListCheckedItem>
-          </ul>
-          <button type="button" class="text-slate-100 bg-indigo-600 rounded-lg text-sm px-3 py-2 inline-flex justify-center w-full text-center">Contact for Pricing</button>
-        </div>
+        <Pricing />
       </section>
 
       {/*

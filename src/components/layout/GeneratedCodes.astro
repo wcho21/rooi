@@ -1,0 +1,36 @@
+---
+import Card from "../Card.astro";
+import Heading from "../core/Heading.astro";
+import Button from "../Button.astro";
+import ButtonGroup from "../ButtonGroup.astro";
+import RightArrow from "../RightArrow.astro";
+---
+
+<div>
+  <Heading>Generated Codes</Heading>
+</div>
+<div class="space-y-2 md:space-y-0 md:grid md:grid-cols-2 md:gap-2 xl:grid-cols-4">
+  <Card>
+    <span slot="heading">Omag</span>
+    A magazine-like blog with interests in computer science and mathematics.
+    <ButtonGroup>
+      <Button url="https://drop.rooi.dev">
+        Visit <RightArrow />
+      </Button>
+    </ButtonGroup>
+  </Card>
+  <Card>
+    <span slot="heading">Wabiar</span>
+    An online meeting platform
+    supporting real-time document co-editing (by <a href="https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type" class="text-indigo-500 font-semibold">CRDT</a>)
+    and video conference (by <a href="https://en.wikipedia.org/wiki/WebRTC" class="text-indigo-500 font-semibold">WebRTC</a>).
+    <ButtonGroup>
+      <div class="inline-flex items-center px-3 py-2 text-sm text-center text-slate-200 bg-slate-700 rounded-lg">
+        Not available
+      </div>
+      <Button url="https://github.com/boostcampwm-2022/web27-Wabinar">
+        GitHub <RightArrow />
+      </Button>
+    </ButtonGroup>
+  </Card>
+</div>
