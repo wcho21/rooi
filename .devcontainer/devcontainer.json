@@ -4,5 +4,10 @@
     "context": "..",
     "dockerfile": "Dockerfile"
   },
-  "forwardPorts": [3000, 3000]
+  "forwardPorts": [3000, 3000],
+  "customizations": {
+    "vscode": {
+      "extensions": ["svelte.svelte-vscode"]
+    }
+  }
 }

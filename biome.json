@@ -1,0 +1,14 @@
+{
+  "files": {
+    "ignore": [".svelte-kit", "static"]
+  },
+  "formatter": {
+    "indentStyle": "space",
+    "lineWidth": 120
+  },
+  "javascript": {
+    "formatter": {
+      "arrowParentheses": "asNeeded"
+    }
+  }
+}
