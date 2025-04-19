@@ -1,0 +1,8 @@
+{
+  "name": "env",
+  "build": {
+    "context": "..",
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [3000, 3000]
+}
