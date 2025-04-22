@@ -1,6 +1,6 @@
 {
   "files": {
-    "ignore": [".svelte-kit", "static"]
+    "ignore": [".svelte-kit", "static", "*.svelte"]
   },
   "formatter": {
     "indentStyle": "space",
