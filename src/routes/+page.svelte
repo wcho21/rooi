@@ -1,2 +1,16 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+  import Screen from "$lib/slidypage/Screen.svelte";
+  import Slide from "$lib/slidypage/Slide.svelte";
+</script>
+
+<Screen>
+  <Slide>
+    <div>111</div>
+  </Slide>
+  <Slide>
+    <div>222</div>
+  </Slide>
+  <Slide>
+    <div>333</div>
+  </Slide>
+</Screen>
