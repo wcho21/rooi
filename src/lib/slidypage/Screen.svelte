@@ -2,4 +2,4 @@
   const { children } = $props();
 </script>
 
-<div class="border-box w-dvw h-dvh snap-mandatory snap-y overflow-y-scroll">{@render children()}</div>
+<div class="border-box w-dvw h-dvh snap-mandatory snap-y overflow-y-scroll scroll-smooth">{@render children()}</div>
