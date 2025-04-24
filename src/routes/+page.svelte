@@ -17,7 +17,8 @@
 
 <svelte:window bind:devicePixelRatio={dpr} />
 
-<canvas bind:this={canvas} class="fixed w-full w-full h-dvh bg-slate-950 pointer-events-none z-[-2]"></canvas>
+<div class="fixed w-full h-dvh bg-slate-950 pointer-events-none z-[-3]"></div>
+<canvas bind:this={canvas} class="fixed w-full w-full h-dvh pointer-events-none z-[-2] opacity-0"></canvas>
 <div class="bg-radial from-[transparent] from-[25%] to-[rgba(0,0,0,0.5)] fixed w-full h-dvh pointer-events-none z-[-1]"></div>
 <Screen>
   <Slide>

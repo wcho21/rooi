@@ -2,10 +2,10 @@ import { getPositiveModulo } from "$lib/util/math";
 import particlesModel from "./model";
 
 export default class Brownian {
-  private static readonly FRAME_RATE = 20;
+  private static readonly UPDATE_RATE = 30; // hz
   private static readonly MOBILE_WIDTH_THRESHOLD = 600;
-  private static readonly SPEED_FACTOR_X_DESKTOP = 4;
-  private static readonly SPEED_FACTOR_X_MOBILE = 3;
+  private static readonly SPEED_FACTOR_X_DESKTOP = 2.5;
+  private static readonly SPEED_FACTOR_X_MOBILE = 1.75;
   private static readonly SPEED_FACTOR_Y = -0.25;
   private static readonly RADIUS_FACTOR = 3;
 
@@ -26,7 +26,36 @@ export default class Brownian {
     this.radiusFactor = Brownian.RADIUS_FACTOR;
   }
 
-  public draw() {
+  public draw(): void {
+    this.drawInitialFrame();
+  }
+
+  private drawInitialFrame(): void {
+    const delay = 1000 / Brownian.UPDATE_RATE;
+
+    this.canvas.style.opacity = "0";
+    this.canvas.style.transition = "opacity 1.5s ease";
+
+    this.renderFrame();
+
+    setTimeout(() => {
+      requestAnimationFrame(() => this.drawSubsequentFrame());
+
+      this.canvas.style.opacity = "1";
+    }, delay);
+  }
+
+  private drawSubsequentFrame() {
+    const delay = 1000 / Brownian.UPDATE_RATE;
+
+    this.renderFrame();
+
+    setTimeout(() => {
+      requestAnimationFrame(() => this.drawSubsequentFrame());
+    }, delay);
+  }
+
+  private renderFrame(): void {
     this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
     for (const model of particlesModel) {
       model.x += model.speedX * this.speedFactorX;
@@ -39,11 +68,6 @@ export default class Brownian {
       this.context.fillStyle = `rgba(255, 255, 255, ${model.opacity})`;
       this.context.fill();
     }
-
-    const delay = 1000 / Brownian.FRAME_RATE;
-    setTimeout(() => {
-      requestAnimationFrame(() => this.draw());
-    }, delay);
   }
 
   private static initContext(canvas: HTMLCanvasElement) {
