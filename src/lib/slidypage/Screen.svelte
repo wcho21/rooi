@@ -2,14 +2,4 @@
   const { children } = $props();
 </script>
 
-<div class="screen">{@render children()}</div>
-
-<style>
-  .screen {
-    box-sizing: border-box;
-    border: 2px solid red;
-    height: 100dvh;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-  }
-</style>
+<div class="border-box w-dvw h-dvh snap-mandatory snap-y overflow-y-scroll">{@render children()}</div>
