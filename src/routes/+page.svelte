@@ -17,9 +17,10 @@
 
 <svelte:window bind:devicePixelRatio={dpr} />
 
-<div class="fixed w-full h-dvh bg-slate-950 pointer-events-none z-[-3]"></div>
-<canvas bind:this={canvas} class="fixed w-full w-full h-dvh pointer-events-none z-[-2] opacity-0"></canvas>
-<div class="bg-radial from-[transparent] from-[25%] to-[rgba(0,0,0,0.5)] fixed w-full h-dvh pointer-events-none z-[-1]"></div>
+<div class="fixed w-full h-dvh bg-slate-950 pointer-events-none z-[-4]"></div>
+<canvas bind:this={canvas} class="fixed w-full w-full h-dvh pointer-events-none z-[-3] opacity-0"></canvas>
+<div class="bg-radial from-[transparent] from-[25%] to-[rgba(0,0,0,0.5)] fixed w-full h-dvh pointer-events-none z-[-2]"></div>
+<div class="bg-linear-to-b from-[transparent] to-slate-600 fixed w-full h-dvh pointer-events-none z-[-1] opacity-25"></div>
 <Screen>
   <Slide>
     <div class="text-slate-100 w-full h-full flex items-center justify-center text-shadow-[0px_0px_15px_rgba(255,255,255,0.5)]">
