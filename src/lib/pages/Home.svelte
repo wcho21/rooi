@@ -54,15 +54,17 @@
           subheadingTyping.clear();
         }
         if (target === links && isIntersecting) {
-          target.style.transitionProperty = "opacity";
+          target.style.transitionProperty = "opacity, transform";
           target.style.transitionDuration = "1s";
           target.style.transitionDelay = "0.75s";
           target.style.opacity = "1";
+          target.style.transform = "translateY(0em)";
         }
         if (target === links && !isIntersecting) {
           target.style.transitionDuration = "0s";
           target.style.transitionDelay = "0s";
           target.style.opacity = "0";
+          target.style.transform = "translateY(1em)";
         }
       });
     });
@@ -75,18 +77,18 @@
 </script>
 
 <div class="text-slate-100 w-full h-full font-mono">
-  <div class="w-[50dvw] mx-auto pt-[30dvh]">
-    <div class="text-6xl tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-sky-500 via-rose-400 to-lime-400">
-      <div class="py-2 mb-2">
-        <div class="font-bold inline-block height-[1em] align-top" bind:this={heading}></div><div class="cursor inline-block text-6xl" bind:this={headingCursor}></div>
+  <div class="w-[85dvw] 2xl:w-[60dvw] mx-auto pt-[30dvh]">
+    <div class="text-2xl 2xl:text-6xl tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-sky-500 via-rose-400 to-lime-400">
+      <div class="py-1 2xl:py-2 mb-1 2xl:mb-2">
+        <div class="font-bold inline-block h-[1.25em] leading-[1.25] align-top" bind:this={heading}></div><div class="cursor inline-block h-[1.25em] leading-[1.25] align-top w-[1px] 2xl:w-[3px] ml-[4px] 2xl:ml-[8px] text-2xl 2xl:text-6xl" bind:this={headingCursor}></div>
       </div>
-      <div class="py-2">
-        <div class="font-bold inline-block height-[1em] align-top" bind:this={subheading}></div><div class="cursor inline-block text-6xl" bind:this={subheadingCursor}></div>
+      <div class="py-1 2xl:py-2">
+        <div class="font-bold inline-block h-[1.25em] leading-[1.25] align-top" bind:this={subheading}></div><div class="cursor inline-block h-[1.25em] leading-[1.25] align-top w-[1px] 2xl:w-[3px] ml-[4px] 2xl:ml-[8px] text-2xl 2xl:text-6xl" bind:this={subheadingCursor}></div>
       </div>
     </div>
-    <div class="text-2xl text-slate-100 flex gap-8 mt-[15dvh] font-regular" bind:this={links}>
-      <div class="opacity-[0.25] hover:opacity-[0.875] hover:scale-[1.05] hover:font-bold transition-[opacity,scale,font-weight] duration-[0.25s]"><a href="https://github.com/wcho21" target="_blank">GitHub</a></div>
-      <div class="opacity-[0.25] hover:opacity-[0.875] hover:scale-[1.05] hover:font-bold transition-[opacity,scale,font-weight] duration-[0.25s]"><a href="mailto:contact@rooi.dev">Email</a></div>
+    <div class="text-sm 2xl:text-2xl text-slate-100 mt-[15dvh] font-regular opacity-0" style="transform: translateY(1em)" bind:this={links}>
+      <div class="opacity-[0.25] hover:font-bold hover:opacity-[0.875] transition-[opacity,font-weight] duration-[0.25s]"><a href="https://github.com/wcho21" target="_blank">GitHub: @wcho21</a></div>
+      <div class="opacity-[0.25] hover:font-bold hover:opacity-[0.875] transition-[opacity,font-weight] duration-[0.25s] mt-1"><a href="mailto:contact@rooi.dev" target="_blank">Email: contact@rooi.dev</a></div>
     </div>
   </div>
 </div>
@@ -98,7 +100,7 @@
   @reference "tailwindcss";
 
   .cursor {
-    @apply inline-block w-[3px] h-[1.0em] ml-[8px] bg-slate-50 align-top content-[""] invisible;
+    @apply inline-block bg-slate-50 align-top content-[""] invisible;
     animation: blink 1s infinite;
   }
 
