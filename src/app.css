@@ -4,3 +4,8 @@
 @theme {
   --font-mono: "Source Code Pro", monospace;
 }
+
+body {
+  color-scheme: dark;
+  background-color: #000;
+}
