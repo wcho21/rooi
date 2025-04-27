@@ -77,16 +77,16 @@
 </script>
 
 <div class="text-slate-100 w-full h-full font-mono">
-  <div class="w-[85dvw] 2xl:w-[60dvw] mx-auto pt-[30dvh]">
-    <div class="text-2xl 2xl:text-6xl tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-sky-500 via-rose-400 to-lime-400">
-      <div class="py-1 2xl:py-2 mb-1 2xl:mb-2">
-        <div class="font-bold inline-block h-[1.25em] leading-[1.25] align-top" bind:this={heading}></div><div class="cursor inline-block h-[1.25em] leading-[1.25] align-top w-[1px] 2xl:w-[3px] ml-[4px] 2xl:ml-[8px] text-2xl 2xl:text-6xl" bind:this={headingCursor}></div>
+  <div class="w-[85dvw] lg:w-[60dvw] mx-auto pt-[30dvh]">
+    <div class="text-lg lg:text-6xl tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-sky-500 via-rose-400 to-lime-400">
+      <div class="py-1 lg:py-2 mb-1 lg:mb-2">
+        <div class="font-bold inline-block h-[1.25em] leading-[1.25] align-top" bind:this={heading}></div><div class="cursor inline-block h-[1.25em] leading-[1.25] align-top w-[1px] lg:w-[3px] ml-[4px] lg:ml-[8px] text-lg lg:text-6xl" bind:this={headingCursor}></div>
       </div>
-      <div class="py-1 2xl:py-2">
-        <div class="font-bold inline-block h-[1.25em] leading-[1.25] align-top" bind:this={subheading}></div><div class="cursor inline-block h-[1.25em] leading-[1.25] align-top w-[1px] 2xl:w-[3px] ml-[4px] 2xl:ml-[8px] text-2xl 2xl:text-6xl" bind:this={subheadingCursor}></div>
+      <div class="py-1 lg:py-2">
+        <div class="font-bold inline-block h-[1.25em] leading-[1.25] align-top" bind:this={subheading}></div><div class="cursor inline-block h-[1.25em] leading-[1.25] align-top w-[1px] lg:w-[3px] ml-[4px] lg:ml-[8px] text-lg lg:text-6xl" bind:this={subheadingCursor}></div>
       </div>
     </div>
-    <div class="text-sm 2xl:text-2xl text-slate-100 mt-[15dvh] font-regular opacity-0" style="transform: translateY(1em)" bind:this={links}>
+    <div class="text-sm lg:text-2xl text-slate-100 mt-[15dvh] font-regular opacity-0" style="transform: translateY(1em)" bind:this={links}>
       <div class="opacity-[0.25] hover:font-bold hover:opacity-[0.875] transition-[opacity,font-weight] duration-[0.25s]"><a href="https://github.com/wcho21" target="_blank">GitHub: @wcho21</a></div>
       <div class="opacity-[0.25] hover:font-bold hover:opacity-[0.875] transition-[opacity,font-weight] duration-[0.25s] mt-1"><a href="mailto:contact@rooi.dev" target="_blank">Email: contact@rooi.dev</a></div>
     </div>
