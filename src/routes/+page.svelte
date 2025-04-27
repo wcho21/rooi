@@ -4,6 +4,7 @@
   import { onMount } from "svelte";
   import Brownian from "$lib/brownian";
   import Home from "$lib/pages/Home.svelte";
+  import Works from "$lib/pages/Works.svelte";
 
   let canvas: HTMLCanvasElement;
   let dpr: number;
@@ -27,13 +28,7 @@
     <Home />
   </Slide>
   <Slide>
-    <div class="text-slate-100 w-full h-full flex items-center justify-center text-shadow-[0px_0px_15px_rgba(255,255,255,0.5)]">
-      <div class="text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-purple-400">
-        <p class="text-center text-8xl my-4">Works</p>
-        <p class="text-center text-8xl my-4">hovering item 1</p>
-        <p class="text-center text-8xl my-4">hovering item 2</p>
-      </div>
-    </div>
+    <Works />
   </Slide>
   <div class="h-[5dvh]">
     <div class="text-slate-100 w-full h-full flex items-center justify-center text-shadow-[0px_0px_15px_rgba(255,255,255,0.5)]">
