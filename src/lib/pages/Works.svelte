@@ -69,8 +69,8 @@
 
 <div class="text-slate-100 w-full h-full font-mono">
   <div class="pt-[25dvh]">
-    <p class="text-lg lg:text-6xl text-center" bind:this={icon}>🚀</p>
-    <p class="text-lg lg:text-6xl font-bold text-center opacity-1" bind:this={heading}>Toys</p>
+    <p class="text-3xl lg:text-6xl text-center" bind:this={icon}>🚀</p>
+    <p class="text-3xl lg:text-6xl font-bold text-center opacity-1" bind:this={heading}>Toys</p>
   </div>
   <div class="pt-[15dvh] flex justify-center gap-10" bind:this={items}>
     <div class="w-[20dvw] border-box flex justify-center">
