@@ -30,9 +30,9 @@
   <Slide>
     <Works />
   </Slide>
-  <div class="h-[5dvh]">
+  <div class="h-[7.5dvh]">
     <div class="text-slate-100 w-full h-full flex items-center justify-center text-shadow-[0px_0px_15px_rgba(255,255,255,0.5)]">
-      <p>nothing here</p>
+      <p class="font-md">😏</p>
     </div>
   </div>
 </Screen>
