@@ -43,15 +43,19 @@
         }
         if (target === heading && isIntersecting) {
           headingTyping.animate();
+          return;
         }
         if (target === heading && !isIntersecting) {
           headingTyping.clear();
+          return;
         }
         if (target === subheading && isIntersecting) {
           subheadingTyping.animate();
+          return;
         }
         if (target === subheading && !isIntersecting) {
           subheadingTyping.clear();
+          return;
         }
         if (target === links && isIntersecting) {
           target.style.transitionProperty = "opacity, transform";
@@ -59,12 +63,14 @@
           target.style.transitionDelay = "0.75s";
           target.style.opacity = "1";
           target.style.transform = "translateY(0em)";
+          return;
         }
         if (target === links && !isIntersecting) {
           target.style.transitionDuration = "0s";
           target.style.transitionDelay = "0s";
           target.style.opacity = "0";
           target.style.transform = "translateY(1em)";
+          return;
         }
       });
     });
@@ -79,10 +85,10 @@
 <div class="text-slate-100 w-full h-full font-mono">
   <div class="w-[85dvw] lg:w-[60dvw] mx-auto pt-[30dvh]">
     <div class="text-lg lg:text-6xl tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-sky-500 via-rose-400 to-lime-400">
-      <div class="py-1 lg:py-2 mb-1 lg:mb-2">
+      <div class="py-0 lg:py-1">
         <div class="font-bold inline-block h-[1.25em] leading-[1.25] align-top" bind:this={heading}></div><div class="cursor inline-block h-[1.25em] leading-[1.25] align-top w-[1px] lg:w-[3px] ml-[4px] lg:ml-[8px] text-lg lg:text-6xl" bind:this={headingCursor}></div>
       </div>
-      <div class="py-1 lg:py-2">
+      <div class="py-0 lg:py-1">
         <div class="font-bold inline-block h-[1.25em] leading-[1.25] align-top" bind:this={subheading}></div><div class="cursor inline-block h-[1.25em] leading-[1.25] align-top w-[1px] lg:w-[3px] ml-[4px] lg:ml-[8px] text-lg lg:text-6xl" bind:this={subheadingCursor}></div>
       </div>
     </div>
