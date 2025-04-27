@@ -86,10 +86,10 @@
   <div class="w-[85dvw] lg:w-[60dvw] mx-auto pt-[30dvh]">
     <div class="text-lg lg:text-6xl tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-sky-500 via-rose-400 to-lime-400">
       <div class="py-0 lg:py-1">
-        <div class="font-bold inline-block h-[1.25em] leading-[1.25] align-top" bind:this={heading}></div><div class="cursor inline-block h-[1.25em] leading-[1.25] align-top w-[1px] lg:w-[3px] ml-[4px] lg:ml-[8px] text-lg lg:text-6xl" bind:this={headingCursor}></div>
+        <div class="font-bold inline-block min-h-[1.25em] leading-[1.25] align-top"><span bind:this={heading}></span><div class="cursor inline-block h-[1.25em] leading-[1.25] align-top w-[1px] lg:w-[3px] ml-[4px] lg:ml-[8px] text-3xl lg:text-6xl" bind:this={headingCursor}></div></div>
       </div>
       <div class="py-0 lg:py-1">
-        <div class="font-bold inline-block h-[1.25em] leading-[1.25] align-top" bind:this={subheading}></div><div class="cursor inline-block h-[1.25em] leading-[1.25] align-top w-[1px] lg:w-[3px] ml-[4px] lg:ml-[8px] text-lg lg:text-6xl" bind:this={subheadingCursor}></div>
+        <div class="font-bold inline-block min-h-[1.25em] leading-[1.25] align-top"><span bind:this={subheading}></span><div class="cursor inline-block h-[1.25em] leading-[1.25] align-top w-[1px] lg:w-[3px] ml-[4px] lg:ml-[8px] text-3xl lg:text-6xl" bind:this={subheadingCursor}></div></div>
       </div>
     </div>
     <div class="text-sm lg:text-2xl text-slate-100 mt-[15dvh] font-regular opacity-0" style="transform: translateY(1em)" bind:this={links}>
