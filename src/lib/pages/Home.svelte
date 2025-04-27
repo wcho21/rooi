@@ -92,9 +92,9 @@
         <div class="font-bold inline-block min-h-[1.25em] leading-[1.25] align-top"><span bind:this={subheading}></span><div class="cursor inline-block h-[1.25em] leading-[1.25] align-top w-[1px] lg:w-[3px] ml-[4px] lg:ml-[8px] text-3xl lg:text-6xl" bind:this={subheadingCursor}></div></div>
       </div>
     </div>
-    <div class="text-sm lg:text-2xl text-slate-100 mt-[15dvh] font-regular opacity-0" style="transform: translateY(1em)" bind:this={links}>
-      <div class="opacity-[0.25] hover:font-bold hover:opacity-[0.875] transition-[opacity,font-weight] duration-[0.25s]"><a href="https://github.com/wcho21" target="_blank">GitHub: @wcho21</a></div>
-      <div class="opacity-[0.25] hover:font-bold hover:opacity-[0.875] transition-[opacity,font-weight] duration-[0.25s] mt-1"><a href="mailto:contact@rooi.dev" target="_blank">Email: contact@rooi.dev</a></div>
+    <div class="text-sm lg:text-2xl text-slate-100 mt-[15dvh] font-regular opacity-0 flex gap-10" style="transform: translateY(1em)" bind:this={links}>
+      <div class="opacity-[0.25] hover:font-bold hover:opacity-[0.875] transition-[opacity,font-weight] duration-[0.25s]"><a href="https://github.com/wcho21" target="_blank">github:<br />wcho21</a></div>
+      <div class="opacity-[0.25] hover:font-bold hover:opacity-[0.875] transition-[opacity,font-weight] duration-[0.25s]"><a href="mailto:contact@rooi.dev" target="_blank">email:<br />contact@rooi.dev</a></div>
     </div>
   </div>
 </div>
