@@ -9,7 +9,7 @@ export interface ParticleModel {
 
 /**
  * Precomputed by the following code.
- * 
+ *
  * ```
  * Array(100)
  *   .fill(0)
@@ -30,7 +30,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.810548137880325,
     speedX: 0.05289964722995588,
     speedY: 0.16916603104500916,
-    opacity: 0.7612380076188467
+    opacity: 0.7612380076188467,
   },
   {
     x: 56045.29072575841,
@@ -38,7 +38,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.8925794235761801,
     speedX: 0.1073255682554698,
     speedY: 0.385752878647607,
-    opacity: 0.8185136656169054
+    opacity: 0.8185136656169054,
   },
   {
     x: 92273.37366521565,
@@ -46,7 +46,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.74104066634937,
     speedX: 0.18783346364270337,
     speedY: 0.5674785509907682,
-    opacity: 0.5406060955014873
+    opacity: 0.5406060955014873,
   },
   {
     x: 37587.91458805574,
@@ -54,7 +54,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.7859039219367829,
     speedX: 0.7610594742432265,
     speedY: 0.414718030883208,
-    opacity: 0.5504606333666633
+    opacity: 0.5504606333666633,
   },
   {
     x: 74000.35789266942,
@@ -62,7 +62,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.7413158370612054,
     speedX: 0.7354884716316318,
     speedY: 0.2083431335805126,
-    opacity: 0.9900635009960503
+    opacity: 0.9900635009960503,
   },
   {
     x: 64100.732942642855,
@@ -70,7 +70,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.6893685426198629,
     speedX: 0.311262401554964,
     speedY: 0.43089637737835207,
-    opacity: 0.6449269933816062
+    opacity: 0.6449269933816062,
   },
   {
     x: 30392.903123357806,
@@ -78,7 +78,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.8442596254216912,
     speedX: 0.022369661356569037,
     speedY: 0.4271482034660006,
-    opacity: 0.6871371722688591
+    opacity: 0.6871371722688591,
   },
   {
     x: 2921.156162897145,
@@ -86,7 +86,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.8318000584789509,
     speedX: 0.2624538817516371,
     speedY: 0.777737284598855,
-    opacity: 0.6005787261226516
+    opacity: 0.6005787261226516,
   },
   {
     x: 26293.89805931451,
@@ -94,7 +94,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.6592641317267661,
     speedX: 0.4758996189655802,
     speedY: 0.37087378460608567,
-    opacity: 0.654420955899033
+    opacity: 0.654420955899033,
   },
   {
     x: 23553.62785729398,
@@ -102,7 +102,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.8651106171937941,
     speedX: 0.42983030880583095,
     speedY: 0.5636132347058896,
-    opacity: 0.5515010737129562
+    opacity: 0.5515010737129562,
   },
   {
     x: 5874.863547494477,
@@ -110,7 +110,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.587752278475271,
     speedX: 0.15818454260996817,
     speedY: 0.2010226620700033,
-    opacity: 0.8204108885403787
+    opacity: 0.8204108885403787,
   },
   {
     x: 355.4159196772399,
@@ -118,7 +118,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.5851920967371709,
     speedX: 0.8200916420294878,
     speedY: 0.4160490701579649,
-    opacity: 0.730366617408637
+    opacity: 0.730366617408637,
   },
   {
     x: 44230.6582726105,
@@ -126,7 +126,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.5854523760555366,
     speedX: 0.5819688948452014,
     speedY: 0.24566512160422294,
-    opacity: 0.8447115462611801
+    opacity: 0.8447115462611801,
   },
   {
     x: 54490.88986626648,
@@ -134,7 +134,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.8980224086498148,
     speedX: 0.1623354404291253,
     speedY: 0.28996130418265276,
-    opacity: 0.7059644340737306
+    opacity: 0.7059644340737306,
   },
   {
     x: 75491.20015528059,
@@ -142,7 +142,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.9429292956197581,
     speedX: 0.4241125899017757,
     speedY: 0.06225486771761235,
-    opacity: 0.6893387385755241
+    opacity: 0.6893387385755241,
   },
   {
     x: 1270.7188731584242,
@@ -150,7 +150,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.5647741589807791,
     speedX: 0.9568802315355661,
     speedY: 0.8910104391604848,
-    opacity: 0.935661887688137
+    opacity: 0.935661887688137,
   },
   {
     x: 78280.51189277854,
@@ -158,7 +158,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.5898265284451811,
     speedX: 0.22355803621346837,
     speedY: 0.8447173586243604,
-    opacity: 0.9518447929584042
+    opacity: 0.9518447929584042,
   },
   {
     x: 16580.447524015286,
@@ -166,7 +166,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.7873187203742518,
     speedX: 0.07271972897598111,
     speedY: 0.38376986251755685,
-    opacity: 0.7563089484867118
+    opacity: 0.7563089484867118,
   },
   {
     x: 18934.675681401917,
@@ -174,7 +174,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.9472869482670555,
     speedX: 0.8510654236028361,
     speedY: 0.7247890852775246,
-    opacity: 0.9474559018183453
+    opacity: 0.9474559018183453,
   },
   {
     x: 71275.2857765356,
@@ -182,7 +182,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.5040906768309237,
     speedX: 0.8841019196205946,
     speedY: 0.2967714347729289,
-    opacity: 0.7491237194384449
+    opacity: 0.7491237194384449,
   },
   {
     x: 96852.40425660915,
@@ -190,7 +190,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.7859146165169842,
     speedX: 0.8643408535712699,
     speedY: 0.00571865266026339,
-    opacity: 0.7769865203221178
+    opacity: 0.7769865203221178,
   },
   {
     x: 8447.0337995564,
@@ -198,7 +198,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.891006401444631,
     speedX: 0.5271851562127208,
     speedY: 0.7440583601118811,
-    opacity: 0.8000653062895222
+    opacity: 0.8000653062895222,
   },
   {
     x: 80007.18053082192,
@@ -206,7 +206,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.6691208390915679,
     speedX: 0.4274799907238196,
     speedY: 0.19111852873362667,
-    opacity: 0.6313357982929385
+    opacity: 0.6313357982929385,
   },
   {
     x: 66996.17503981154,
@@ -214,7 +214,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.5209946950850108,
     speedX: 0.21992393604028848,
     speedY: 0.7798485265586101,
-    opacity: 0.878383199048699
+    opacity: 0.878383199048699,
   },
   {
     x: 38733.453868453274,
@@ -222,7 +222,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.638331402112521,
     speedX: 0.10730432111767041,
     speedY: 0.9687462413317453,
-    opacity: 0.8651487663968145
+    opacity: 0.8651487663968145,
   },
   {
     x: 72014.41431804585,
@@ -230,7 +230,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.6868628287580141,
     speedX: 0.03618003132600944,
     speedY: 0.7114159633811038,
-    opacity: 0.8853589671520093
+    opacity: 0.8853589671520093,
   },
   {
     x: 50678.406120292595,
@@ -238,7 +238,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.5919987292167277,
     speedX: 0.5663136992247733,
     speedY: 0.9545066071955646,
-    opacity: 0.5057922428330522
+    opacity: 0.5057922428330522,
   },
   {
     x: 33003.75431305797,
@@ -246,7 +246,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.886266853606279,
     speedX: 0.4938802797223253,
     speedY: 0.282811363586398,
-    opacity: 0.8529447504985495
+    opacity: 0.8529447504985495,
   },
   {
     x: 43288.157139269104,
@@ -254,7 +254,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.7336862396139235,
     speedX: 0.5728131110698194,
     speedY: 0.6929959955710546,
-    opacity: 0.9167481517148737
+    opacity: 0.9167481517148737,
   },
   {
     x: 88730.66489640609,
@@ -262,7 +262,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.6881502051167574,
     speedX: 0.37426649680651225,
     speedY: 0.24358504649896362,
-    opacity: 0.7153656508426429
+    opacity: 0.7153656508426429,
   },
   {
     x: 20456.415700042,
@@ -270,7 +270,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.8414349643899612,
     speedX: 0.7687274082991866,
     speedY: 0.2709449024646363,
-    opacity: 0.5713382999181313
+    opacity: 0.5713382999181313,
   },
   {
     x: 57429.00956903324,
@@ -278,7 +278,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.8493863140202127,
     speedX: 0.6752684623976698,
     speedY: 0.47937045424506664,
-    opacity: 0.5399533600392123
+    opacity: 0.5399533600392123,
   },
   {
     x: 95870.99142103757,
@@ -286,7 +286,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.9223912241015613,
     speedX: 0.3994529636561236,
     speedY: 0.40635140738992737,
-    opacity: 0.6656215243741801
+    opacity: 0.6656215243741801,
   },
   {
     x: 44517.16755237944,
@@ -294,7 +294,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.810313354531479,
     speedX: 0.33210454329500305,
     speedY: 0.3903984922824607,
-    opacity: 0.9906499675808614
+    opacity: 0.9906499675808614,
   },
   {
     x: 95430.04797636384,
@@ -302,7 +302,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.7290843076427451,
     speedX: 0.07963023099051192,
     speedY: 0.8561491301313422,
-    opacity: 0.818773242672389
+    opacity: 0.818773242672389,
   },
   {
     x: 75654.99801853248,
@@ -310,7 +310,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.885647043073425,
     speedX: 0.22455008940608,
     speedY: 0.08187085586291831,
-    opacity: 0.5821031366163769
+    opacity: 0.5821031366163769,
   },
   {
     x: 59727.45533541995,
@@ -318,7 +318,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.595225471414986,
     speedX: 0.17884992595084093,
     speedY: 0.36150315795983323,
-    opacity: 0.9106776508961116
+    opacity: 0.9106776508961116,
   },
   {
     x: 82693.75157954376,
@@ -326,7 +326,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.6428519936450728,
     speedX: 0.06678679150088518,
     speedY: 0.5401712212996201,
-    opacity: 0.8423949896869268
+    opacity: 0.8423949896869268,
   },
   {
     x: 52430.4022699192,
@@ -334,7 +334,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.794118574535478,
     speedX: 0.3038043369911526,
     speedY: 0.1156673670820948,
-    opacity: 0.6605183085177293
+    opacity: 0.6605183085177293,
   },
   {
     x: 80317.76473284254,
@@ -342,7 +342,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.7319321954466702,
     speedX: 0.8787007081940138,
     speedY: 0.10382981634220478,
-    opacity: 0.6419193027454348
+    opacity: 0.6419193027454348,
   },
   {
     x: 26393.61878732054,
@@ -350,7 +350,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.5980859018920817,
     speedX: 0.3954374063604281,
     speedY: 0.9992391050818235,
-    opacity: 0.5948915118773044
+    opacity: 0.5948915118773044,
   },
   {
     x: 79199.2723300217,
@@ -358,7 +358,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.6198077104198221,
     speedX: 0.5945995920741854,
     speedY: 0.4978204994216462,
-    opacity: 0.9010278411436393
+    opacity: 0.9010278411436393,
   },
   {
     x: 88126.48933834268,
@@ -366,7 +366,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.7813933961191909,
     speedX: 0.9530128122681066,
     speedY: 0.5907235440488044,
-    opacity: 0.7498786600314162
+    opacity: 0.7498786600314162,
   },
   {
     x: 11030.918480806124,
@@ -374,7 +374,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.8616827838369221,
     speedX: 0.18920802561152428,
     speedY: 0.6522605228902927,
-    opacity: 0.6183601714456757
+    opacity: 0.6183601714456757,
   },
   {
     x: 93263.52464112733,
@@ -382,7 +382,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.8037978870417029,
     speedX: 0.10015333020815853,
     speedY: 0.4841123694227476,
-    opacity: 0.6805320147417038
+    opacity: 0.6805320147417038,
   },
   {
     x: 75861.18291865085,
@@ -390,7 +390,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.9878347342237985,
     speedX: 0.7856583194213069,
     speedY: 0.8423885828928039,
-    opacity: 0.5360758365020947
+    opacity: 0.5360758365020947,
   },
   {
     x: 64005.7393638827,
@@ -398,7 +398,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.5330544845310135,
     speedX: 0.9326019835093634,
     speedY: 0.09227371009993945,
-    opacity: 0.8509930139077986
+    opacity: 0.8509930139077986,
   },
   {
     x: 42456.721911583496,
@@ -406,7 +406,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.6212900464764117,
     speedX: 0.674174276064047,
     speedY: 0.2090824862074766,
-    opacity: 0.62749534167798
+    opacity: 0.62749534167798,
   },
   {
     x: 2456.6128689815664,
@@ -414,7 +414,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.6498428535560474,
     speedX: 0.9805735666913049,
     speedY: 0.5722044551106698,
-    opacity: 0.9115930602532722
+    opacity: 0.9115930602532722,
   },
   {
     x: 39562.76554234867,
@@ -422,7 +422,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.9437008624683687,
     speedX: 0.2121530716009653,
     speedY: 0.5389096590757275,
-    opacity: 0.926516740709348
+    opacity: 0.926516740709348,
   },
   {
     x: 44070.24238127159,
@@ -430,7 +430,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.640513472851995,
     speedX: 0.28499557471777515,
     speedY: 0.05077465745951837,
-    opacity: 0.8345027146367952
+    opacity: 0.8345027146367952,
   },
   {
     x: 33777.53723452141,
@@ -438,7 +438,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.5423808296895978,
     speedX: 0.3632763567221422,
     speedY: 0.6777382715390085,
-    opacity: 0.5535238056214057
+    opacity: 0.5535238056214057,
   },
   {
     x: 87245.52260273881,
@@ -446,7 +446,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.7046217781628681,
     speedX: 0.324643080976037,
     speedY: 0.19146463866793628,
-    opacity: 0.643877747649434
+    opacity: 0.643877747649434,
   },
   {
     x: 23693.25265943427,
@@ -454,7 +454,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.5514578388278373,
     speedX: 0.10442556376738099,
     speedY: 0.7214112158053232,
-    opacity: 0.9929910159534432
+    opacity: 0.9929910159534432,
   },
   {
     x: 44764.58244975497,
@@ -462,7 +462,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.9787622753742741,
     speedX: 0.676979605422528,
     speedY: 0.7546090261137076,
-    opacity: 0.7719774422338735
+    opacity: 0.7719774422338735,
   },
   {
     x: 3582.7252096151033,
@@ -470,7 +470,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.7097170829230539,
     speedX: 0.8873255901429213,
     speedY: 0.06715331324531659,
-    opacity: 0.8000601606617956
+    opacity: 0.8000601606617956,
   },
   {
     x: 59400.185313830174,
@@ -478,7 +478,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.6339688634027589,
     speedX: 0.12358774397012162,
     speedY: 0.29798976758982454,
-    opacity: 0.9061348237959523
+    opacity: 0.9061348237959523,
   },
   {
     x: 79178.27070279418,
@@ -486,7 +486,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.5976150886424154,
     speedX: 0.780767737212704,
     speedY: 0.7712678186567041,
-    opacity: 0.5534070427111086
+    opacity: 0.5534070427111086,
   },
   {
     x: 92962.96027970116,
@@ -494,7 +494,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.8731088006450431,
     speedX: 0.6875521181079182,
     speedY: 0.12378163051914803,
-    opacity: 0.984601868447012
+    opacity: 0.984601868447012,
   },
   {
     x: 68453.9683436673,
@@ -502,7 +502,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.9935722338749389,
     speedX: 0.015315750163627073,
     speedY: 0.015188015723582304,
-    opacity: 0.6933906973045637
+    opacity: 0.6933906973045637,
   },
   {
     x: 68145.34766611195,
@@ -510,7 +510,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.6361525990117309,
     speedX: 0.5540458588430948,
     speedY: 0.8482931050544388,
-    opacity: 0.8831189133097102
+    opacity: 0.8831189133097102,
   },
   {
     x: 62388.72422458895,
@@ -518,7 +518,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.9754609335568456,
     speedX: 0.4518988372898225,
     speedY: 0.5423596993166739,
-    opacity: 0.7978346560558822
+    opacity: 0.7978346560558822,
   },
   {
     x: 9372.832363187534,
@@ -526,7 +526,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.9407715370563097,
     speedX: 0.06982643330526428,
     speedY: 0.8626109785362867,
-    opacity: 0.652390323735424
+    opacity: 0.652390323735424,
   },
   {
     x: 97795.59105674092,
@@ -534,7 +534,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.9959276855901182,
     speedX: 0.17933938400144034,
     speedY: 0.02068624774487271,
-    opacity: 0.5489990121586057
+    opacity: 0.5489990121586057,
   },
   {
     x: 29210.725395749818,
@@ -542,7 +542,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.7253286079284311,
     speedX: 0.6978353419230939,
     speedY: 0.2304847829592297,
-    opacity: 0.9590934899832069
+    opacity: 0.9590934899832069,
   },
   {
     x: 71860.67771600718,
@@ -550,7 +550,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.5945553195001252,
     speedX: 0.6368324190946375,
     speedY: 0.4311779522453566,
-    opacity: 0.5945046199985251
+    opacity: 0.5945046199985251,
   },
   {
     x: 20699.843328973795,
@@ -558,7 +558,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.81957959594167,
     speedX: 0.5922770768114537,
     speedY: 0.7470290334506197,
-    opacity: 0.6335285687445579
+    opacity: 0.6335285687445579,
   },
   {
     x: 15771.925593598437,
@@ -566,7 +566,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.7391429489801425,
     speedX: 0.5617358573627536,
     speedY: 0.6572927892233456,
-    opacity: 0.8339894609333212
+    opacity: 0.8339894609333212,
   },
   {
     x: 45682.02518875516,
@@ -574,7 +574,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.743531711761161,
     speedX: 0.31705896618082574,
     speedY: 0.16022655914021522,
-    opacity: 0.7386021756773513
+    opacity: 0.7386021756773513,
   },
   {
     x: 68803.6959312588,
@@ -582,7 +582,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.8282169718387069,
     speedX: 0.717692836753102,
     speedY: 0.4621732228516994,
-    opacity: 0.9082138491085943
+    opacity: 0.9082138491085943,
   },
   {
     x: 79046.1057785428,
@@ -590,7 +590,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.7268666916512763,
     speedX: 0.8062229697662852,
     speedY: 0.8895920621588652,
-    opacity: 0.7267458317677853
+    opacity: 0.7267458317677853,
   },
   {
     x: 78444.8116414928,
@@ -598,7 +598,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.7114935872820488,
     speedX: 0.7195759266920001,
     speedY: 0.14044804569127822,
-    opacity: 0.5212163602505178
+    opacity: 0.5212163602505178,
   },
   {
     x: 92575.41890742921,
@@ -606,7 +606,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.7599562432152634,
     speedX: 0.25581909867698505,
     speedY: 0.9463545801543559,
-    opacity: 0.7769894641880983
+    opacity: 0.7769894641880983,
   },
   {
     x: 15124.451205407619,
@@ -614,7 +614,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.8310148051719178,
     speedX: 0.13918087213431007,
     speedY: 0.5960453770505836,
-    opacity: 0.7037542013927641
+    opacity: 0.7037542013927641,
   },
   {
     x: 85587.99295707636,
@@ -622,7 +622,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.8728083233024557,
     speedX: 0.11029919243982378,
     speedY: 0.47881499470646205,
-    opacity: 0.5695036527362298
+    opacity: 0.5695036527362298,
   },
   {
     x: 86035.65058893296,
@@ -630,7 +630,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.8262657251294574,
     speedX: 0.2011314975092403,
     speedY: 0.08475705716344428,
-    opacity: 0.6053646645980642
+    opacity: 0.6053646645980642,
   },
   {
     x: 79777.00666853695,
@@ -638,7 +638,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.977851209070892,
     speedX: 0.04386045830509844,
     speedY: 0.9801374970098965,
-    opacity: 0.9433927684585235
+    opacity: 0.9433927684585235,
   },
   {
     x: 97431.30190704585,
@@ -646,7 +646,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.6195712489317629,
     speedX: 0.044073148169691434,
     speedY: 0.22885259277578118,
-    opacity: 0.7739350921152068
+    opacity: 0.7739350921152068,
   },
   {
     x: 62517.7727128104,
@@ -654,7 +654,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.7998467776459894,
     speedX: 0.5219163800394736,
     speedY: 0.07417368914893785,
-    opacity: 0.7666036493078094
+    opacity: 0.7666036493078094,
   },
   {
     x: 69919.32645922579,
@@ -662,7 +662,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.5733198812047509,
     speedX: 0.5096675105319958,
     speedY: 0.8766859952741456,
-    opacity: 0.7086963004296678
+    opacity: 0.7086963004296678,
   },
   {
     x: 41485.03894182347,
@@ -670,7 +670,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.5982034580477646,
     speedX: 0.9077974000931143,
     speedY: 0.33720477782064173,
-    opacity: 0.7594546356249454
+    opacity: 0.7594546356249454,
   },
   {
     x: 13388.713224605484,
@@ -678,7 +678,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.5159983696783443,
     speedX: 0.0034753603537698297,
     speedY: 0.06964259327638489,
-    opacity: 0.6886662621971394
+    opacity: 0.6886662621971394,
   },
   {
     x: 97821.90745830406,
@@ -686,7 +686,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.9618288220838569,
     speedX: 0.12823540047123916,
     speedY: 0.04583627271186341,
-    opacity: 0.7067113933701185
+    opacity: 0.7067113933701185,
   },
   {
     x: 27155.652544643974,
@@ -694,7 +694,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.9608981416670861,
     speedX: 0.7624468980539564,
     speedY: 0.7548094379858798,
-    opacity: 0.7461374979437657
+    opacity: 0.7461374979437657,
   },
   {
     x: 88267.96186844165,
@@ -702,7 +702,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.6106243777445288,
     speedX: 0.06398372274934794,
     speedY: 0.9729473274277879,
-    opacity: 0.9082714683451472
+    opacity: 0.9082714683451472,
   },
   {
     x: 43342.65035804417,
@@ -710,7 +710,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.8861228477403232,
     speedX: 0.8133592097368707,
     speedY: 0.6295056099253775,
-    opacity: 0.7455344251025977
+    opacity: 0.7455344251025977,
   },
   {
     x: 9322.811719616917,
@@ -718,7 +718,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.8138464147057947,
     speedX: 0.27457963364299764,
     speedY: 0.2743111967253691,
-    opacity: 0.7845918699616447
+    opacity: 0.7845918699616447,
   },
   {
     x: 40170.84167560413,
@@ -726,7 +726,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.5722503756595556,
     speedX: 0.9802195300916708,
     speedY: 0.04740364683879639,
-    opacity: 0.8258677509566827
+    opacity: 0.8258677509566827,
   },
   {
     x: 91299.26961294636,
@@ -734,7 +734,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.5188341784811701,
     speedX: 0.8347638252410059,
     speedY: 0.0018721447412864967,
-    opacity: 0.8999279146846753
+    opacity: 0.8999279146846753,
   },
   {
     x: 86121.29819404404,
@@ -742,7 +742,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.9013294255572845,
     speedX: 0.8396446035243907,
     speedY: 0.4967046537868377,
-    opacity: 0.5994585951339344
+    opacity: 0.5994585951339344,
   },
   {
     x: 6823.486226116785,
@@ -750,7 +750,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.8930386952678372,
     speedX: 0.2820002917330323,
     speedY: 0.15293189749749003,
-    opacity: 0.8763061141874716
+    opacity: 0.8763061141874716,
   },
   {
     x: 34157.378997088985,
@@ -758,7 +758,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.7851827936647162,
     speedX: 0.6209189103277358,
     speedY: 0.6350194208870623,
-    opacity: 0.7116021093614142
+    opacity: 0.7116021093614142,
   },
   {
     x: 80320.24913509031,
@@ -766,7 +766,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.5915050067921508,
     speedX: 0.715695076613831,
     speedY: 0.7708213207635662,
-    opacity: 0.8178454736795157
+    opacity: 0.8178454736795157,
   },
   {
     x: 16594.500454735487,
@@ -774,7 +774,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.6837270955208592,
     speedX: 0.8301754468451186,
     speedY: 0.7646927131146605,
-    opacity: 0.5339050384281294
+    opacity: 0.5339050384281294,
   },
   {
     x: 77850.87690309263,
@@ -782,7 +782,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.548213682661667,
     speedX: 0.8602175714428653,
     speedY: 0.9958426843874582,
-    opacity: 0.5680664744643188
+    opacity: 0.5680664744643188,
   },
   {
     x: 66839.11792126113,
@@ -790,7 +790,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.7804688519949521,
     speedX: 0.4520352594330064,
     speedY: 0.40631955988769053,
-    opacity: 0.7109973688521822
+    opacity: 0.7109973688521822,
   },
   {
     x: 53570.07337940067,
@@ -798,7 +798,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.884497222011145,
     speedX: 0.7539434232919864,
     speedY: 0.9905051773120349,
-    opacity: 0.9899718763688315
+    opacity: 0.9899718763688315,
   },
   {
     x: 92935.59943372989,
@@ -806,7 +806,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.8635745871218448,
     speedX: 0.6098505342888348,
     speedY: 0.010009776574208429,
-    opacity: 0.611199076809493
+    opacity: 0.611199076809493,
   },
   {
     x: 58061.249341399234,
@@ -814,7 +814,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.51439241991571,
     speedX: 0.7679690905183747,
     speedY: 0.7881767646245845,
-    opacity: 0.5600458503659487
+    opacity: 0.5600458503659487,
   },
   {
     x: 24768.79041293115,
@@ -822,7 +822,7 @@ const particlesModel: ParticleModel[] = [
     radius: 0.8141349952532095,
     speedX: 0.5681092134150153,
     speedY: 0.7096142398608007,
-    opacity: 0.726396303349975
-  }
+    opacity: 0.726396303349975,
+  },
 ];
 export default particlesModel;
