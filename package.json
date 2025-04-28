@@ -21,5 +21,8 @@
     "format": "biome check --write",
     "format:check": "biome check"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@sveltejs/adapter-static": "^3.0.8"
+  }
 }
