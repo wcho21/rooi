@@ -1,0 +1,14 @@
+{
+  "name": "env",
+  "build": {
+    "context": "..",
+    "dockerfile": "Dockerfile"
+  },
+  "postCreateCommand": "bun install --frozen-lockfile",
+  "forwardPorts": [3000, 3000],
+  "customizations": {
+    "vscode": {
+      "extensions": ["svelte.svelte-vscode"]
+    }
+  }
+}
